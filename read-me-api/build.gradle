@@ -11,6 +11,17 @@ repositories {
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:6.0.0')
+    // AWS
+    implementation platform('software.amazon.awssdk:bom:2.56.0')
+
+    // API
+    implementation 'software.amazon.awssdk:polly:2.56.0'
+
+    implementation 'javazoom:jlayer:1.0.1'
+    implementation 'org.slf4j:slf4j-api:2.0.20'
+    implementation 'ch.qos.logback:logback-classic:1.6.5'
+    implementation 'ch.qos.logback:logback-core:1.6.5'
+    compileOnly 'org.projectlombok:lombok:1.18.48'
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

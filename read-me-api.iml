@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/read-me-api/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/read-me-api/build" />
     </content>
-    <orderEntry type="jdk" jdkName="corretto-25" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="openjdk-26" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
